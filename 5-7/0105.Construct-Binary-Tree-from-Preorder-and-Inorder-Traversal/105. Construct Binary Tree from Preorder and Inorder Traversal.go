@@ -22,10 +22,10 @@ func buildTree(preorder []int, inorder []int) *TreeNode {
 		return nil
 	}
 	root := &TreeNode{Val: preorder[0]}
-	for pos, node := range inorder {
+	for i, node := range inorder {
 		if node == root.Val {
-			root.Left = buildTree(preorder[1:pos+1], inorder[:pos])
-			root.Right = buildTree(preorder[pos+1:], inorder[pos+1:])
+			root.Left = buildTree(preorder[1:i+1], inorder[:i])
+			root.Right = buildTree(preorder[i+1:], inorder[i+1:])
 		}
 	}
 	return root
