@@ -17,9 +17,11 @@ type TreeNode = structures.TreeNode
  */
 
 func lowestCommonAncestor236(root, p, q *TreeNode) *TreeNode {
-	if root == nil || root == q || root == p {
+
+	if root == nil || root == p || root == q {
 		return root
 	}
+	// 因为是递归，使用函数后可认为左右子树已经算出结果，这句话要记住，道出了递归的精髓
 	left := lowestCommonAncestor236(root.Left, p, q)
 	right := lowestCommonAncestor236(root.Right, p, q)
 	if left != nil {

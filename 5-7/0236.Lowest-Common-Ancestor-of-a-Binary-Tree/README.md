@@ -1,4 +1,4 @@
-# [236. Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
+# [236. Lowest Common Ancestor of a Binary Tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/)
 
 
 ## 题目
@@ -38,3 +38,4 @@ Given the following binary tree: root = [3,5,1,6,2,0,8,null,null,7,4]
 ## 解题思路
 
 - 这是一套经典的题目，寻找任意一个二叉树中两个结点的 LCA 最近公共祖先，考察递归
+- 我觉得吧。这就是一个后序遍历的模型，只不过是每个父节点都会接收子节点的状态（是否含-有p、q）并把这个状态往上传递，直到该结点满足祖先节点的条件。这样一想就豁然开朗了。
