@@ -93,7 +93,7 @@ The furthest point away from the origin is (1, 8), which is 12 + 82 = 65 units a
 ## 代码
 
 ```go
-package leetcode
+package ltcode
 
 func robotSim(commands []int, obstacles [][]int) int {
 	m := make(map[[2]int]struct{})

@@ -1,8 +1,8 @@
-package leetcode
-
-import "math"
+package ltcode
 
 import (
+	"math"
+
 	"github.com/halfrost/LeetCode-Go/structures"
 )
 

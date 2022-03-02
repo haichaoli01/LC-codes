@@ -132,7 +132,7 @@ Since -91283472332 is less than the lower bound of the range [-231, 231 - 1], th
 ## 代码
 
 ```go
-package leetcode
+package ltcode
 
 func myAtoi(s string) int {
 	maxInt, signAllowed, whitespaceAllowed, sign, digits := int64(2<<30), true, true, 1, []int{}

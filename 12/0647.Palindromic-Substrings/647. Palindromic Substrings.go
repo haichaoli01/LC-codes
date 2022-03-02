@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 func countSubstrings(s string) int {
 	res := 0

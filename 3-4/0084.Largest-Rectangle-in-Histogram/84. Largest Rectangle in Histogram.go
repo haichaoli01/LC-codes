@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 func largestRectangleArea(heights []int) int {
 	maxArea := 0

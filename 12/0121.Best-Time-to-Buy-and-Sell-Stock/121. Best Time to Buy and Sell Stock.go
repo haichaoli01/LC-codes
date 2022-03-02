@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 // 解法一 模拟 DP
 func maxProfit(prices []int) int {

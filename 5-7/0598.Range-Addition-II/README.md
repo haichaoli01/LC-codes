@@ -59,7 +59,7 @@ So the maximum integer in M is 2, and there are four of it in M. So return 4.
 
 ```go
 
-package leetcode
+package ltcode
 
 func maxCount(m int, n int, ops [][]int) int {
 	minM, minN := m, n

@@ -42,7 +42,7 @@ Output: [[1],[2,3,4,5],[6,7,8,9,10],[11,12,13],[14]]
 ## 代码
 
 ```go
-package leetcode
+package ltcode
 
 /**
  * Definition for a Node.

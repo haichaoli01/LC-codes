@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 type position struct {
 	x int

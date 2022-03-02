@@ -42,7 +42,7 @@ Output: 2
 ## 代码
 
 ```go
-package leetcode
+package ltcode
 
 func jump(nums []int) int {
 	if len(nums) == 1 {

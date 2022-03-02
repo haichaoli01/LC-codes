@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 func minWindow(s string, t string) string {
 	if s == "" || t == "" {

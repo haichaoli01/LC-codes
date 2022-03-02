@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 // 解法一 二进制位操作法
 func isPowerOfTwo(num int) bool {

@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 func ladderLength(beginWord string, endWord string, wordList []string) int {
 	wordMap, que, depth := getWordMap(wordList, beginWord), []string{beginWord}, 0

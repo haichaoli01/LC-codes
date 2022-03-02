@@ -48,7 +48,7 @@ rotate 2 steps to the right: [3,99,-1,-100]
 ## 代码
 
 ```go
-package leetcode
+package ltcode
 
 // 解法一 时间复杂度 O(n)，空间复杂度 O(1)
 func rotate(nums []int, k int) {

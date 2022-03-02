@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 func maxCount(m int, n int, ops [][]int) int {
 	minM, minN := m, n

@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 func permute(nums []int) [][]int {
 	if len(nums) == 0 {

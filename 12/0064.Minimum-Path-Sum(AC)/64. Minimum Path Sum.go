@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 // 解法一 原地 DP，无辅助空间
 func minPathSum(grid [][]int) int {

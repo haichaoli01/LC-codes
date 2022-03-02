@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 func rob213(nums []int) int {
 	n := len(nums)

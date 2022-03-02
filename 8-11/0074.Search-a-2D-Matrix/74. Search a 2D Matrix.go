@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 func searchMatrix(matrix [][]int, target int) bool {
 	if len(matrix) == 0 {

@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 func maxProduct(nums []int) int {
 	minimum, maximum, res := nums[0], nums[0], nums[0]

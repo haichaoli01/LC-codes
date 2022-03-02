@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 func findWords(board [][]byte, words []string) []string {
 	res := []string{}

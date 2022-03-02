@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 func reverseStr(s string, k int) string {
 	if k > len(s) {

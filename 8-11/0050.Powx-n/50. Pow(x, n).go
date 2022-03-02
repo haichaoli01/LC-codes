@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 // 时间复杂度 O(log n),空间复杂度 O(1)
 func myPow(x float64, n int) float64 {

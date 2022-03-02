@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 var (
 	letterMap = []string{

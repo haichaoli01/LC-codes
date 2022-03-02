@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 func myAtoi(s string) int {
 	maxInt, signAllowed, whitespaceAllowed, sign, digits := int64(2<<30), true, true, 1, []int{}

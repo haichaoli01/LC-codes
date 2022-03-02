@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 func combine(n int, k int) [][]int {
 	if n <= 0 || k <= 0 || k > n {

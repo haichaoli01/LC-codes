@@ -60,7 +60,7 @@ lRUCache.get(4);    // return 4
 ## 代码
 
 ```go
-package leetcode
+package ltcode
 
 type LRUCache struct {
 	head, tail *Node

@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 import (
 	"fmt"
@@ -27,7 +27,7 @@ func Test_Problem91(t *testing.T) {
 	qs := []question91{
 
 		{
-			para91{"12"},
+			para91{"06"},
 			ans91{2},
 		},
 

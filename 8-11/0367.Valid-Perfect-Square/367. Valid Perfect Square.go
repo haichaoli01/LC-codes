@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 func isPerfectSquare(num int) bool {
 	low, high := 1, num

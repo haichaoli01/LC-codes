@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 // 解法一 DFS
 func solveNQueens(n int) [][]string {

@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 func findLadders(beginWord string, endWord string, wordList []string) [][]string {
 	result, wordMap := make([][]string, 0), make(map[string]bool)

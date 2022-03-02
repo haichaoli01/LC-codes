@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 import (
 	"fmt"
@@ -31,12 +31,12 @@ func Test_Problem297(t *testing.T) {
 			ans297{[]int{}},
 		},
 		{
-			para297{[]int{1,2,3,-1,-1,4,5}},
-			ans297{[]int{1,2,3,-1,-1,4,5}},
+			para297{[]int{1, 2, 3, -1, -1, 4, 5}},
+			ans297{[]int{1, 2, 3, -1, -1, 4, 5}},
 		},
 		{
-			para297{[]int{1,2}},
-			ans297{[]int{1,2}},
+			para297{[]int{1, 2}},
+			ans297{[]int{1, 2}},
 		},
 	}
 

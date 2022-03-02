@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 type LRUCache struct {
 	head, tail *Node

@@ -57,7 +57,7 @@ Output: 1
 ## 代码
 
 ```go
-package leetcode
+package ltcode
 
 func change(amount int, coins []int) int {
 	dp := make([]int, amount+1)

@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 // 解法一 BFS
 func minMutation(start string, end string, bank []string) int {

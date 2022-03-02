@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 func merge(nums1 []int, m int, nums2 []int, n int) {
 	for p := m + n; m > 0 && n > 0; p-- {

@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 // 解法一 DP
 func rob198(nums []int) int {

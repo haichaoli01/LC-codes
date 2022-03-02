@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 func reverseBits(num uint32) uint32 {
 	var res uint32

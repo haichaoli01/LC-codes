@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 func isIsomorphic(s string, t string) bool {
 	strList := []byte(t)

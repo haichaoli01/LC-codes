@@ -50,7 +50,7 @@ babgbagbabgbagbabgbagbabgbagbabgbag
 ## 代码
 
 ```go
-package leetcode
+package ltcode
 
 // 解法一 压缩版 DP
 func numDistinct(s string, t string) int {

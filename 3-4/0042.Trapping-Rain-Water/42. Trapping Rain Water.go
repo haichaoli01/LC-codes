@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 func trap(height []int) int {
 	res, left, right, maxLeft, maxRight := 0, 0, len(height)-1, 0, 0

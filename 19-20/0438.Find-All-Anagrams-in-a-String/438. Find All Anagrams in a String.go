@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 func findAnagrams(s string, p string) []int {
 	var freq [256]int

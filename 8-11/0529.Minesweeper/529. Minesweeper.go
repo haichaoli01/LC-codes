@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 var dir8 = [][]int{
 	{-1, -1},

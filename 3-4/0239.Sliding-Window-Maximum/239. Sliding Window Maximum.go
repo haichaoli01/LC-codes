@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 // 解法一 暴力解法 O(nk)
 func maxSlidingWindow1(a []int, k int) []int {

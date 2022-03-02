@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 // MinStack define
 type MinStack struct {

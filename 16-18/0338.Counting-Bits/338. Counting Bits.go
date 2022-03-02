@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 func countBits(num int) []int {
 	bits := make([]int, num+1)

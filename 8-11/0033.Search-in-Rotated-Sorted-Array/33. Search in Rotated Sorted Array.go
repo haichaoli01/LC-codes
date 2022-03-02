@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 func search33(nums []int, target int) int {
 	if len(nums) == 0 {

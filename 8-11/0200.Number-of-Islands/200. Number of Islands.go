@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 var dir = [][]int{
 	{-1, 0},

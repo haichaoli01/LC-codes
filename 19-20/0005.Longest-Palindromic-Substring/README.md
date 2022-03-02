@@ -65,7 +65,7 @@ Output: "a"
 ## 代码
 
 ```go
-package leetcode
+package ltcode
 
 // 解法一 Manacher's algorithm，时间复杂度 O(n)，空间复杂度 O(n)
 func longestPalindrome(s string) string {

@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 func maxProfit122(prices []int) int {
 	profit := 0

@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 func change(amount int, coins []int) int {
 	dp := make([]int, amount+1)

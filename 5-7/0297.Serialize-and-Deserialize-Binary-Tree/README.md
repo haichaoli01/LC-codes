@@ -55,7 +55,7 @@ Output: [1,2]
 ## 代码
 
 ```go
-package leetcode
+package ltcode
 
 import (
 	"strconv"

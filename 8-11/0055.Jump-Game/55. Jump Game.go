@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 func canJump(nums []int) bool {
 	n := len(nums)

@@ -55,7 +55,7 @@ Explanation: There is no such common subsequence, so the result is 0.
 ## 代码
 
 ```go
-package leetcode
+package ltcode
 
 func longestCommonSubsequence(text1 string, text2 string) int {
 	if len(text1) == 0 || len(text2) == 0 {

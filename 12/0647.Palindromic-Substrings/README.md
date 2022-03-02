@@ -37,7 +37,7 @@ Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
 ## 代码
 
 ```go
-package leetcode
+package ltcode
 
 func countSubstrings(s string) int {
 	res := 0

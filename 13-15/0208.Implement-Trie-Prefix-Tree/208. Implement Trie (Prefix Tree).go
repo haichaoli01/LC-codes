@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 type Trie struct {
 	isWord   bool

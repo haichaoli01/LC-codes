@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 // 解法一 时间复杂度 O(n) 空间复杂度 O(1)
 func majorityElement(nums []int) int {

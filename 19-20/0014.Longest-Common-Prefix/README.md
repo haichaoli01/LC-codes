@@ -38,7 +38,7 @@ If there is no common prefix, return an empty string "".
 
 ```go
 
-package leetcode
+package ltcode
 
 func longestCommonPrefix(strs []string) string {
 	prefix := strs[0]

@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 func splitArray(nums []int, m int) int {
 	maxNum, sum := 0, 0

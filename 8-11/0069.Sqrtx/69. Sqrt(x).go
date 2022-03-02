@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 // 解法一 二分, 找到最后一个满足 n^2 <= x 的整数n
 func mySqrt(x int) int {

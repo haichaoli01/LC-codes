@@ -50,7 +50,7 @@ Explanation: The last word is "joyboy" with length 6.
 ## 代码
 
 ```go
-package leetcode
+package ltcode
 
 func lengthOfLastWord(s string) int {
 	last := len(s) - 1

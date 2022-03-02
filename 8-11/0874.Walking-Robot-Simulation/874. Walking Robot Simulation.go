@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 func robotSim(commands []int, obstacles [][]int) int {
 	m := make(map[[2]int]struct{})

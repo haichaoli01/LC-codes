@@ -1,11 +1,9 @@
-package leetcode
+package ltcode
 
 import (
 	"math"
 	"sort"
-)
 
-import (
 	"github.com/halfrost/LeetCode-Go/structures"
 )
 

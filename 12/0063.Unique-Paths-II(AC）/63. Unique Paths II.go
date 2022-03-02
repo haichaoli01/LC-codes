@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 func uniquePathsWithObstacles(obstacleGrid [][]int) int {
 	if len(obstacleGrid) == 0 || obstacleGrid[0][0] == 1 {

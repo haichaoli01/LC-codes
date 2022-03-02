@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 // 解法一，暴力打表法
 func totalNQueens(n int) int {

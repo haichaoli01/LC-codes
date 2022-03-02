@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 func toLowerCase(s string) string {
 	runes := []rune(s)

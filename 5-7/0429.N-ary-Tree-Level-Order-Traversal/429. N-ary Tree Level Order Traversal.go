@@ -1,4 +1,4 @@
-package leetcode
+package ltcode
 
 /**
  * Definition for a Node.
