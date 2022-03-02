@@ -1,11 +1,10 @@
-# [429. N-ary Tree Level Order Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)
-
+# [429. N-ary Tree Level Order Traversal](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/)
 
 ## 题目
 
 Given an n-ary tree, return the *level order* traversal of its nodes' values.
 
-*Nary-Tree input serialization is represented in their level order traversal, each group of children is separated by the null value (See examples).*
+_Nary-Tree input serialization is represented in their level order traversal, each group of children is separated by the null value (See examples)._
 
 **Example 1:**
 

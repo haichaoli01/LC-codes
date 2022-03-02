@@ -1,4 +1,4 @@
-# [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)
+# [142. Linked List Cycle II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)
 
 ## 题目
 
@@ -32,7 +32,6 @@ Output: no cycle
 Explanation: There is no cycle in the linked list.
 ```
 
-
 ## 题目大意
 
 判断链表是否有环，不能使用额外的空间。如果有环，输出环的起点指针，如果没有环，则输出空。
@@ -55,4 +54,3 @@ x1 + x2 + x3 + x2 = 2 * (x1 + x2)
 ```
 
 所以 2 个指针相遇以后，如果 slow 继续往前走，fast 指针回到起点 head，两者都每次走一步，那么必定会在环的起点相遇，相遇以后输出这个点即是结果。
-

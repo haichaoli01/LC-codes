@@ -1,5 +1,4 @@
-# [126. Word Ladder II](https://leetcode.com/problems/word-ladder-ii/)
-
+# [126. Word Ladder II](https://leetcode-cn.com/problems/word-ladder-ii/)
 
 ## 题目
 
@@ -22,7 +21,7 @@ Given two words (*beginWord* and *endWord*), and a dictionary's word list, fin
     beginWord = "hit",
     endWord = "cog",
     wordList = ["hot","dot","dog","lot","log","cog"]
-    
+
     Output:
     [
       ["hit","hot","dot","dog","cog"],
@@ -35,9 +34,9 @@ Given two words (*beginWord* and *endWord*), and a dictionary's word list, fin
     beginWord = "hit"
     endWord = "cog"
     wordList = ["hot","dot","dog","lot","log"]
-    
+
     Output: []
-    
+
     Explanation: The endWord "cog" is not in wordList, therefore no possible transformation.
 
 ## 题目大意
@@ -54,8 +53,6 @@ Given two words (*beginWord* and *endWord*), and a dictionary's word list, fin
 - 所有单词只由小写字母组成。
 - 字典中不存在重复的单词。
 - 你可以假设 beginWord 和 endWord 是非空的，且二者不相同。
-
-
 
 ## 解题思路
 

@@ -1,5 +1,4 @@
-# [91. Decode Ways](https://leetcode.com/problems/decode-ways/)
-
+# [91. Decode Ways](https://leetcode-cn.com/problems/decode-ways/)
 
 ## 题目
 
@@ -26,7 +25,7 @@ Given a **non-empty** string containing only digits, determine the total numbe
 
 ## 题目大意
 
-一条包含字母 A-Z 的消息通过以下方式进行了编码：
+一条包含字母  A-Z 的消息通过以下方式进行了编码：
 
 ```c
 'A' -> 1
@@ -36,8 +35,6 @@ Given a **non-empty** string containing only digits, determine the total numbe
 ```
 
 给定一个只包含数字的非空字符串，请计算解码方法的总数。
-
-
 
 ## 解题思路
 

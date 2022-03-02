@@ -1,4 +1,4 @@
-# [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+# [242. Valid Anagram](https://leetcode-cn.com/problems/valid-anagram/)
 
 ## 题目
 
@@ -18,15 +18,11 @@ Input: s = "rat", t = "car"
 Output: false
 ```
 
-Note:  
+Note:
 
-  
 You may assume the string contains only lowercase alphabets.
-  
-  
-    
-Follow up:  
 
+Follow up:
 
 What if the inputs contain unicode characters? How would you adapt your solution to such case?
 

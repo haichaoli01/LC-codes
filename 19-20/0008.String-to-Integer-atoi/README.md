@@ -1,5 +1,4 @@
-# [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)
-
+# [8. String to Integer (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)
 
 ## 题目
 
@@ -11,7 +10,7 @@ The algorithm for `myAtoi(string s)` is as follows:
 2. Check if the next character (if not already at the end of the string) is `'-'` or `'+'`. Read this character in if it is either. This determines if the final result is negative or positive respectively. Assume the result is positive if neither is present.
 3. Read in next the characters until the next non-digit charcter or the end of the input is reached. The rest of the string is ignored.
 4. Convert these digits into an integer (i.e. `"123" -> 123`, `"0032" -> 32`). If no digits were read, then the integer is `0`. Change the sign as necessary (from step 2).
-5. If the integer is out of the 32-bit signed integer range `[-231, 231 - 1]`, then clamp the integer so that it remains in the range. Specifically, integers less than `231` should be clamped to `231`, and integers greater than `231 - 1` should be clamped to `231 - 1`.
+5. If the integer is out of the 32-bit signed integer range `[-231, 231 - 1]`, then clamp the integer so that it remains in the range. Specifically, integers less than `231` should be clamped to `231`, and integers greater than `231 - 1` should be clamped to `231 - 1`.
 6. Return the integer as the final result.
 
 **Note:**
@@ -110,9 +109,9 @@ Since -91283472332 is less than the lower bound of the range [-231, 231 - 1], th
 
 ## 题目大意
 
-请你来实现一个 myAtoi(string s) 函数，使其能将字符串转换成一个 32 位有符号整数（类似 C/C++ 中的 atoi 函数）。
+请你来实现一个  myAtoi(string s)  函数，使其能将字符串转换成一个 32 位有符号整数（类似 C/C++ 中的 atoi 函数）。
 
-函数 myAtoi(string s) 的算法如下：
+函数  myAtoi(string s) 的算法如下：
 
 - 读入字符串并丢弃无用的前导空格
 - 检查下一个字符（假设还未到字符末尾）为正还是负号，读取该字符（如果有）。 确定最终结果是负数还是正数。 如果两者都不存在，则假定结果为正。

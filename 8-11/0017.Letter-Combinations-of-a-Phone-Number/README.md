@@ -1,5 +1,4 @@
-# [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
-
+# [17. Letter Combinations of a Phone Number](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/)
 
 ## 题目
 
@@ -23,7 +22,6 @@ Although the above answer is in lexicographical order, your answer could be in a
 ## 题目大意
 
 给定一个仅包含数字 2-9 的字符串，返回所有它能表示的字母组合。给出数字到字母的映射如下（与电话按键相同）。注意 1 不对应任何字母。
-
 
 ## 解题思路
 

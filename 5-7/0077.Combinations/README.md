@@ -1,5 +1,4 @@
-# [77. Combinations](https://leetcode.com/problems/combinations/)
-
+# [77. Combinations](https://leetcode-cn.com/problems/combinations/)
 
 ## 题目
 

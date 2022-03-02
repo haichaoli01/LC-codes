@@ -1,4 +1,4 @@
-# [1. Two Sum](https://leetcode.com/problems/two-sum/)
+# [1. Two Sum](https://leetcode-cn.com/problems/two-sum/)
 
 ## 题目
 
@@ -14,8 +14,6 @@ Given nums = [2, 7, 11, 15], target = 9,
 Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 ```
-
-
 
 ## 题目大意
 

@@ -1,11 +1,8 @@
-# [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)
+# [94. Binary Tree Inorder Traversal](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
 
 ## 题目
 
-
 Given a binary tree, return the inorder traversal of its nodes' values.
-
-
 
 Example :
 
@@ -20,13 +17,7 @@ Input: [1,null,2,3]
 Output: [1,3,2]
 ```
 
-
 Follow up: Recursive solution is trivial, could you do it iteratively?
-
-
-
-
- 
 
 ## 题目大意
 
@@ -35,6 +26,3 @@ Follow up: Recursive solution is trivial, could you do it iteratively?
 ## 解题思路
 
 递归的实现方法，见代码。
-
-
-

@@ -1,5 +1,4 @@
-# [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
-
+# [98. Validate Binary Search Tree](https://leetcode-cn.com/problems/validate-binary-search-tree/)
 
 ## 题目
 
@@ -16,7 +15,7 @@ Assume a BST is defined as follows:
         2
        / \
       1   3
-    
+
     Input: [2,1,3]
     Output: true
 
@@ -27,7 +26,7 @@ Assume a BST is defined as follows:
       1   4
          / \
         3   6
-    
+
     Input: [5,1,4,null,null,3,6]
     Output: false
     Explanation: The root node's value is 5 but its right child's value is 4.
@@ -39,7 +38,6 @@ Assume a BST is defined as follows:
 - 节点的左子树只包含小于当前节点的数。
 - 节点的右子树只包含大于当前节点的数。
 - 所有左子树和右子树自身必须也是二叉搜索树。
-
 
 ## 解题思路
 

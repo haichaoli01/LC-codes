@@ -1,4 +1,4 @@
-# [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/)
+# [205. Isomorphic Strings](https://leetcode-cn.com/problems/isomorphic-strings/)
 
 ## 题目
 
@@ -29,12 +29,9 @@ Input: s = "paper", t = "title"
 Output: true
 ```
 
-Note:   
+Note:
 
 You may assume both s and t have the same length.
-
-
-
 
 ## 题目大意
 
@@ -45,6 +42,3 @@ You may assume both s and t have the same length.
 ## 解题思路
 
 这道题做法和第 290 题基本一致。
-
-
-

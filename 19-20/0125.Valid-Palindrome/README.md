@@ -1,4 +1,4 @@
-# [125. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)
+# [125. Valid Palindrome](https://leetcode-cn.com/problems/valid-palindrome/description/)
 
 ## 题目
 
@@ -11,7 +11,7 @@ For example,
 "race a car" is not a palindrome.
 ```
 
-Note:  
+Note:
 
 Have you consider that the string might be empty? This is a good question to ask during an interview.
 

@@ -1,4 +1,4 @@
-# [155. Min Stack](https://leetcode.com/problems/min-stack/)
+# [155. Min Stack](https://leetcode-cn.com/problems/min-stack/)
 
 ## 题目
 
@@ -8,8 +8,6 @@ push(x) -- Push element x onto stack.
 pop() -- Removes the element on top of the stack.
 top() -- Get the top element.
 getMin() -- Retrieve the minimum element in the stack.
-
-
 
 Example:
 
@@ -27,7 +25,6 @@ minStack.getMin();   --> Returns -2.
 ## 题目大意
 
 这道题是一个数据结构实现题。要求实现一个栈的类，实现 push()、pop()、top()、getMin()。
-
 
 ## 解题思路
 

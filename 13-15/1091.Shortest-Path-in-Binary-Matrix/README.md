@@ -1,5 +1,4 @@
-# [1091. Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
-
+# [1091. Shortest Path in Binary Matrix](https://leetcode-cn.com/problems/shortest-path-in-binary-matrix/)
 
 ## 题目
 
@@ -10,7 +9,7 @@ A *clear path from top-left to bottom-right* has length `k` if and only if 
 - Adjacent cells `C_i` and `C_{i+1}` are connected 8-directionally (ie., they are different and share an edge or corner)
 - `C_1` is at location `(0, 0)` (ie. has value `grid[0][0]`)
 - `C_k` is at location `(N-1, N-1)` (ie. has value `grid[N-1][N-1]`)
-- If `C_i` is located at `(r, c)`, then `grid[r][c]` is empty (ie. `grid[r][c] == 0`).
+- If `C_i` is located at `(r, c)`, then `grid[r][c]` is empty (ie. `grid[r][c] == 0`).
 
 Return the length of the shortest such clear path from top-left to bottom-right.  If such a path does not exist, return -1.
 
@@ -43,12 +42,12 @@ Output: 4
 
 ## 题目大意
 
-在一个 N × N 的方形网格中，每个单元格有两种状态：空（0）或者阻塞（1）。一条从左上角到右下角、长度为 k 的畅通路径，由满足下述条件的单元格 C_1, C_2, ..., C_k 组成：
+在一个  N × N 的方形网格中，每个单元格有两种状态：空（0）或者阻塞（1）。一条从左上角到右下角、长度为 k 的畅通路径，由满足下述条件的单元格  C_1, C_2, ..., C_k  组成：
 
-- 相邻单元格 C_i 和 C_{i+1} 在八个方向之一上连通（此时，C_i 和 C_{i+1} 不同且共享边或角）
-- C_1 位于 (0, 0)（即，值为 grid[0][0]）
-- C_k 位于 (N-1, N-1)（即，值为 grid[N-1][N-1]）
-- 如果 C_i 位于 (r, c)，则 grid[r][c] 为空（即，grid[r][c] == 0）
+- 相邻单元格  C*i 和  C*{i+1}  在八个方向之一上连通（此时，C*i 和  C*{i+1}  不同且共享边或角）
+- C_1 位于  (0, 0)（即，值为  grid[0][0]）
+- C_k  位于  (N-1, N-1)（即，值为  grid[N-1][n-1]）
+- 如果 C_i 位于  (r, c)，则 grid[r][c]  为空（即，grid[r][c] == 0）
 
 返回这条从左上角到右下角的最短畅通路径的长度。如果不存在这样的路径，返回 -1 。
 

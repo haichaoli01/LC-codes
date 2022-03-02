@@ -1,4 +1,4 @@
-# [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/)
+# [283. Move Zeroes](https://leetcode-cn.com/problems/move-zeroes/)
 
 ## 题目
 
@@ -15,8 +15,6 @@ Note:
 
 - You must do this in-place without making a copy of the array.
 - Minimize the total number of operations.
-
-
 
 ## 题目大意
 

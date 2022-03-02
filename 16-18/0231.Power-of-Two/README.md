@@ -1,4 +1,4 @@
-# [231. Power of Two](https://leetcode.com/problems/power-of-two/)
+# [231. Power of Two](https://leetcode-cn.com/problems/power-of-two/)
 
 ## 题目
 
@@ -7,7 +7,7 @@ Given an integer, write a function to determine if it is a power of two.
 **Example 1:**
 
     Input: 1
-    Output: true 
+    Output: true
     Explanation: 2^0 = 1
 
 **Example 2:**
@@ -24,7 +24,6 @@ Given an integer, write a function to determine if it is a power of two.
 ## 题目大意
 
 给定一个整数，编写一个函数来判断它是否是 2 的幂次方。
-
 
 ## 解题思路
 

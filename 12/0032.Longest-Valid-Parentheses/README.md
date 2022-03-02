@@ -1,5 +1,4 @@
-# [32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)
-
+# [32. Longest Valid Parentheses](https://leetcode-cn.com/problems/longest-valid-parentheses/)
 
 ## 题目
 

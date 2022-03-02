@@ -1,6 +1,4 @@
-# [771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)
-
-
+# [771. Jewels and Stones](https://leetcode-cn.com/problems/jewels-and-stones/)
 
 ## 题目
 
@@ -23,16 +21,12 @@ The letters in `J` are guaranteed distinct, and all characters in `J` and `
 - `S` and `J` will consist of letters and have length at most 50.
 - The characters in `J` are distinct.
 
-
 ## 题目大意
 
-给定字符串 J 代表石头中宝石的类型，和字符串 S 代表你拥有的石头。S 中每个字符代表了一种你拥有的石头的类型，你想知道你拥有的石头中有多少是宝石。
+给定字符串 J  代表石头中宝石的类型，和字符串  S 代表你拥有的石头。S  中每个字符代表了一种你拥有的石头的类型，你想知道你拥有的石头中有多少是宝石。
 
-J 中的字母不重复，J 和 S 中的所有字符都是字母。字母区分大小写，因此 "a" 和 "A" 是不同类型的石头。
-
-
+J  中的字母不重复，J  和  S 中的所有字符都是字母。字母区分大小写，因此 "a" 和 "A" 是不同类型的石头。
 
 ## 解题思路
-
 
 - 给出 2 个字符串，要求在 S 字符串中找出在 J 字符串里面出现的字符个数。这是一道简单题。

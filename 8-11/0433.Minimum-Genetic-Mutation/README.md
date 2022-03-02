@@ -1,5 +1,4 @@
-# [433. Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/)
-
+# [433. Minimum Genetic Mutation](https://leetcode-cn.com/problems/minimum-genetic-mutation/)
 
 ## 题目
 
@@ -24,7 +23,7 @@ Now, given 3 things - start, end, bank, your task is to determine what is the mi
     start: "AACCGGTT"
     end:   "AACCGGTA"
     bank: ["AACCGGTA"]
-    
+
     return: 1
 
 **Example 2:**
@@ -32,7 +31,7 @@ Now, given 3 things - start, end, bank, your task is to determine what is the mi
     start: "AACCGGTT"
     end:   "AAACGGTA"
     bank: ["AACCGGTA", "AACCGCTA", "AAACGGTA"]
-    
+
     return: 2
 
 **Example 3:**
@@ -40,13 +39,12 @@ Now, given 3 things - start, end, bank, your task is to determine what is the mi
     start: "AAAAACCC"
     end:   "AACCCCCC"
     bank: ["AAAACCCC", "AAACCCCC", "AACCCCCC"]
-    
-    return: 3
 
+    return: 3
 
 ## 题目大意
 
-现在给定3个参数 — start, end, bank，分别代表起始基因序列，目标基因序列及基因库，请找出能够使起始基因序列变化为目标基因序列所需的最少变化次数。如果无法实现目标变化，请返回 -1。
+现在给定 3 个参数 — start, end, bank，分别代表起始基因序列，目标基因序列及基因库，请找出能够使起始基因序列变化为目标基因序列所需的最少变化次数。如果无法实现目标变化，请返回 -1。
 
 注意:
 
@@ -54,10 +52,7 @@ Now, given 3 things - start, end, bank, your task is to determine what is the mi
 2. 所有的目标基因序列必须是合法的。
 3. 假定起始基因序列与目标基因序列是不一样的。
 
-
 ## 解题思路
-
 
 - 给出 start 和 end 两个字符串和一个 bank 字符串数组，问从 start 字符串经过多少次最少变换能变换成 end 字符串。每次变换必须使用 bank 字符串数组中的值。
 - 这一题完全就是第 127 题的翻版题，解题思路和代码 99% 是一样的。相似的题目也包括第 126 题。这一题比他们都要简单。有 2 种解法，BFS 和 DFS。具体思路可以见第 127 题的题解。
-

@@ -1,5 +1,4 @@
-# [647. Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
-
+# [647. Palindromic Substrings](https://leetcode-cn.com/problems/palindromic-substrings/)
 
 ## 题目
 

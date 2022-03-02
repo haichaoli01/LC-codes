@@ -1,5 +1,4 @@
-# [212. Word Search II](https://leetcode.com/problems/word-search-ii/)
-
+# [212. Word Search II](https://leetcode-cn.com/problems/word-search-ii/)
 
 ## 题目
 
@@ -9,7 +8,7 @@ Each word must be constructed from letters of sequentially adjacent cell, where 
 
 **Example:**
 
-    Input: 
+    Input:
     board = [
       ['o','a','a','n'],
       ['e','t','a','e'],
@@ -17,7 +16,7 @@ Each word must be constructed from letters of sequentially adjacent cell, where 
       ['i','f','l','v']
     ]
     words = ["oath","pea","eat","rain"]
-    
+
     Output: ["eat","oath"]
 
 **Note:**
@@ -27,10 +26,9 @@ Each word must be constructed from letters of sequentially adjacent cell, where 
 
 ## 题目大意
 
-给定一个二维网格 board 和一个字典中的单词列表 words，找出所有同时在二维网格和字典中出现的单词。
+给定一个二维网格  board  和一个字典中的单词列表 words，找出所有同时在二维网格和字典中出现的单词。
 
 单词必须按照字母顺序，通过相邻的单元格内的字母构成，其中“相邻”单元格是那些水平相邻或垂直相邻的单元格。同一个单元格内的字母在一个单词中不允许被重复使用。
-
 
 ## 解题思路
 

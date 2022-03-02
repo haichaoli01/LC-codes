@@ -1,4 +1,4 @@
-# [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
+# [104. Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
 
 ## 题目
 
@@ -21,7 +21,6 @@ Given binary tree [3,9,20,null,null,15,7],
 ```
 
 return its depth = 3.
- 
 
 ## 题目大意
 
@@ -30,5 +29,3 @@ return its depth = 3.
 ## 解题思路
 
 这一题递归遍历就可，遍历根节点的左孩子的高度和根节点右孩子的高度，取出两者的最大值再加一即为总高度。
-
-

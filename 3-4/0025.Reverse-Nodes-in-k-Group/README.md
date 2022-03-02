@@ -1,4 +1,4 @@
-# [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)
+# [25. Reverse Nodes in k-Group](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/description/)
 
 ## 题目
 
@@ -21,13 +21,10 @@ Note:
 - Only constant extra memory is allowed.
 - You may not alter the values in the list's nodes, only nodes itself may be changed.
 
-
 ## 题目大意
 
 按照每 K 个元素翻转的方式翻转链表。如果不满足 K 个元素的就不翻转。
 
 ## 解题思路
 
-
 这一题是 problem 24 的加强版，problem 24 是两两相邻的元素，翻转链表。而 problem 25 要求的是 k 个相邻的元素，翻转链表，problem 相当于是 k = 2 的特殊情况。
-

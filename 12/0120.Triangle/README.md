@@ -1,5 +1,4 @@
-# [120. Triangle](https://leetcode.com/problems/triangle/)
-
+# [120. Triangle](https://leetcode-cn.com/problems/triangle/)
 
 ## 题目
 
@@ -18,13 +17,11 @@ The minimum path sum from top to bottom is `11` (i.e., **2** + **3** + **
 
 **Note:**
 
-Bonus point if you are able to do this using only *O*(*n*) extra space, where *n* is the total number of rows in the triangle.
-
+Bonus point if you are able to do this using only *O*(_n_) extra space, where *n* is the total number of rows in the triangle.
 
 ## 题目大意
 
 给定一个三角形，找出自顶向下的最小路径和。每一步只能移动到下一行中相邻的结点上。
-
 
 ## 解题思路
 

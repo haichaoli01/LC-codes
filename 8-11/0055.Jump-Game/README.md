@@ -1,5 +1,4 @@
-# [55. Jump Game](https://leetcode.com/problems/jump-game/)
-
+# [55. Jump Game](https://leetcode-cn.com/problems/jump-game/)
 
 ## 题目
 

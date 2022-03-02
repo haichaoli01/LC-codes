@@ -1,4 +1,4 @@
-# [344. Reverse String](https://leetcode.com/problems/reverse-string/)
+# [344. Reverse String](https://leetcode-cn.com/problems/reverse-string/)
 
 ## 题目
 
@@ -29,4 +29,3 @@ Output: ["h","a","n","n","a","H"]
 ## 解题思路
 
 这一题的解题思路是用 2 个指针，指针对撞的思路，来不断交换首尾元素，即可。
-

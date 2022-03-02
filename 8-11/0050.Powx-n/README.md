@@ -1,31 +1,24 @@
-# [50. Pow(x, n)](https://leetcode.com/problems/powx-n/)
-
+# [50. Pow(x, n)](https://leetcode-cn.com/problems/powx-n/)
 
 ## 题目
 
-Implement [pow(*x*, *n*)](http://www.cplusplus.com/reference/valarray/pow/), which calculates *x* raised to the power *n* (xn).
+Implement [pow(_x_, *n*)](http://www.cplusplus.com/reference/valarray/pow/), which calculates *x* raised to the power *n* (xn).
 
 **Example 1:**
-
 
     Input: 2.00000, 10
     Output: 1024.00000
 
-
 **Example 2:**
-
 
     Input: 2.10000, 3
     Output: 9.26100
 
-
 **Example 3:**
-
 
     Input: 2.00000, -2
     Output: 0.25000
     Explanation: 2-2 = 1/22 = 1/4 = 0.25
-
 
 **Note:**
 

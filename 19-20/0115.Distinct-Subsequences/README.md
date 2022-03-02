@@ -1,5 +1,4 @@
-# [115. Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)
-
+# [115. Distinct Subsequences](https://leetcode-cn.com/problems/distinct-subsequences/)
 
 ## 题目
 
@@ -36,7 +35,7 @@ babgbagbabgbagbabgbagbabgbagbabgbag
 
 ## 题目大意
 
-给定一个字符串 s 和一个字符串 t ，计算在 s 的子序列中 t 出现的个数。字符串的一个 子序列 是指，通过删除一些（也可以不删除）字符且不干扰剩余字符相对位置所组成的新字符串。（例如，"ACE" 是 "ABCDE" 的一个子序列，而 "AEC" 不是）题目数据保证答案符合 32 位带符号整数范围。
+给定一个字符串 s 和一个字符串 t ，计算在 s 的子序列中 t 出现的个数。字符串的一个 子序列 是指，通过删除一些（也可以不删除）字符且不干扰剩余字符相对位置所组成的新字符串。（例如，"ACE"  是  "ABCDE"  的一个子序列，而  "AEC"  不是）题目数据保证答案符合 32 位带符号整数范围。
 
 ## 解题思路
 
@@ -44,7 +43,7 @@ babgbagbabgbagbabgbagbabgbagbabgbag
 - 当 `i < len(s)` 且 `j < len(t)` 的时候，如果 `s[i] == t[j]`，有 2 种匹配方式，第一种将 `s[i]` 与 `t[j]` 匹配，那么 `t[j+1:]` 匹配 `s[i+1:]` 的子序列，子序列数为 `dp[i+1][j+1]`；第二种将 `s[i]` 不与 `t[j]` 匹配，`t[j:]` 作为 `s[i+1:]` 的子序列，子序列数为 `dp[i+1][j]`。综合 2 种情况，当 `s[i] == t[j]` 时，`dp[i][j] = dp[i+1][j+1] + dp[i+1][j]`。
 - 如果 `s[i] != t[j]`，此时 `t[j:]` 只能作为 `s[i+1:]` 的子序列，子序列数为 `dp[i+1][j]`。所以当 `s[i] != t[j]` 时，`dp[i][j] = dp[i+1][j]`。综上分析得：
 
-	$$dp[i][j] = \left\{\begin{matrix}dp[i+1][j+1]+dp[i+1][j]&,s[i]=t[j]\\ dp[i+1][j]&,s[i]!=t[j]\end{matrix}\right.$$
+  $$dp[i][j] = \left\{\begin{matrix}dp[i+1][j+1]+dp[i+1][j]&,s[i]=t[j]\\ dp[i+1][j]&,s[i]!=t[j]\end{matrix}\right.$$
 
 - 最后是优化版本。写出上述代码以后，可以发现填表的过程是从右下角一直填到左上角。填表顺序是 从下往上一行一行的填。行内从右往左填。于是可以将这个二维数据压缩到一维。因为填充当前行只需要用到它的下一行信息即可，更进一步，用到的是下一行中右边元素的信息。于是可以每次更新该行时，先将旧的值存起来，计算更新该行的时候从右往左更新。这样做即可减少一维空间，将原来的二维数组压缩到一维数组。
 

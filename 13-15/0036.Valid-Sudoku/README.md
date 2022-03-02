@@ -1,5 +1,4 @@
-# [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
-
+# [36. Valid Sudoku](https://leetcode-cn.com/problems/valid-sudoku/)
 
 ## 题目
 
@@ -17,7 +16,6 @@ The Sudoku board could be partially filled, where empty cells are filled with th
 
 **Example 1:**
 
-
     Input:
     [
       ["5","3",".",".","7",".",".",".","."],
@@ -32,9 +30,7 @@ The Sudoku board could be partially filled, where empty cells are filled with th
     ]
     Output: true
 
-
 **Example 2:**
-
 
     Input:
     [
@@ -49,9 +45,8 @@ The Sudoku board could be partially filled, where empty cells are filled with th
       [".",".",".",".","8",".",".","7","9"]
     ]
     Output: false
-    Explanation: Same as Example 1, except with the 5 in the top left corner being 
+    Explanation: Same as Example 1, except with the 5 in the top left corner being
         modified to 8. Since there are two 8's in the top left 3x3 sub-box, it is invalid.
-
 
 **Note:**
 
@@ -62,12 +57,11 @@ The Sudoku board could be partially filled, where empty cells are filled with th
 
 ## 题目大意
 
-判断一个 9x9 的数独是否有效。只需要根据以下规则，验证已经填入的数字是否有效即可。
+判断一个  9x9 的数独是否有效。只需要根据以下规则，验证已经填入的数字是否有效即可。
 
-1. 数字 1-9 在每一行只能出现一次。
-2. 数字 1-9 在每一列只能出现一次。
-3. 数字 1-9 在每一个以粗实线分隔的 3x3 宫内只能出现一次。
-
+1. 数字  1-9  在每一行只能出现一次。
+2. 数字  1-9  在每一列只能出现一次。
+3. 数字  1-9  在每一个以粗实线分隔的  3x3  宫内只能出现一次。
 
 ## 解题思路
 

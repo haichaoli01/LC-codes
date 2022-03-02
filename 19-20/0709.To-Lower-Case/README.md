@@ -1,5 +1,4 @@
-# [709. To Lower Case](https://leetcode.com/problems/to-lower-case/)
-
+# [709. To Lower Case](https://leetcode-cn.com/problems/to-lower-case/)
 
 ## 题目
 

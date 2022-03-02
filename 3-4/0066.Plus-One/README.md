@@ -1,5 +1,4 @@
-# [66. Plus One](https://leetcode.com/problems/plus-one/)
-
+# [66. Plus One](https://leetcode-cn.com/problems/plus-one/)
 
 ## 题目
 
@@ -21,13 +20,9 @@ You may assume the integer does not contain any leading zero, except the number 
     Output: [4,3,2,2]
     Explanation: The array represents the integer 4321.
 
-
 ## 题目大意
 
-
 给定一个由整数组成的非空数组所表示的非负整数，在该数的基础上加一。最高位数字存放在数组的首位， 数组中每个元素只存储单个数字。你可以假设除了整数 0 之外，这个整数不会以零开头。
-
-
 
 ## 解题思路
 
