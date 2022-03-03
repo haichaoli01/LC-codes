@@ -14,13 +14,12 @@ package ltcode
 func numDecodings(s string) int {
 	n := len(s)
 	dp := make([]int, n+1)
-
 	dp[0] = 1
 	for i := 1; i <= n; i++ {
 		if s[i-1] != '0' { //lhcerr: s[i-1] != 0
 			dp[i] = dp[i-1]
 		}
-		if i > 2 {
+		if i >= 2 { //lhcerr: i > 2
 			if t := (s[i-2]-'0')*10 + (s[i-1] - '0'); t < 27 && t > 9 {
 				dp[i] += dp[i-2]
 			}

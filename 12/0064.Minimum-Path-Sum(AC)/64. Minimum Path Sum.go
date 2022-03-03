@@ -1,5 +1,7 @@
 package ltcode
 
+import "math"
+
 // 解法一 原地 DP，无辅助空间
 func minPathSum(grid [][]int) int {
 	m, n := len(grid), len(grid[0])
@@ -61,4 +63,50 @@ func min(a int, b int) int {
 		return b
 	}
 	return a
+}
+
+func minPathSum2(grid [][]int) int {
+	m, n := len(grid), len(grid[0])
+
+	var dfs func(i, j int) int
+	dfs = func(i, j int) int {
+		if i >= m || j >= n {
+			return math.MaxInt32
+		}
+		if i == m-1 && j == n-1 {
+			return grid[i][j]
+		}
+		return min(dfs(i+1, j), dfs(i, j+1)) + grid[i][j]
+	}
+
+	return dfs(0, 0)
+}
+
+func minPathSum3(grid [][]int) int {
+	m, n := len(grid), len(grid[0])
+	cache := make([][]int, m)
+	for i := 0; i < m; i++ {
+		cache[i] = make([]int, n)
+	}
+	for i := 0; i < m; i++ {
+		for j := 0; j < n; j++ {
+			cache[i][j] = -1
+		}
+	}
+
+	var dfs func(i, j int) int
+	dfs = func(i, j int) int {
+		if i >= m || j >= n {
+			return math.MaxInt32
+		}
+		if i == m-1 && j == n-1 {
+			return grid[i][j]
+		}
+		if cache[i][j] < 0 {
+			cache[i][j] = min(dfs(i+1, j), dfs(i, j+1)) + grid[i][j]
+		}
+		return cache[i][j]
+	}
+
+	return dfs(0, 0)
 }
