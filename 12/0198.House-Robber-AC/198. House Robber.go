@@ -32,9 +32,9 @@ func rob198_1(nums []int) int {
 		return 0
 	}
 	curMax, preMax := 0, 0
-	for i := 0; i < n; i++ {
+	for _, val := range nums {
 		tmp := curMax
-		curMax = max(curMax, nums[i]+preMax)
+		curMax = max(curMax, preMax+val)
 		preMax = tmp
 	}
 	return curMax

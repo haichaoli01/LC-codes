@@ -26,15 +26,15 @@ func Test_Problem198(t *testing.T) {
 
 	qs := []question198{
 
-		{
-			para198{[]int{1, 2}},
-			ans198{2},
-		},
+		// {
+		// 	para198{[]int{1, 2}},
+		// 	ans198{2},
+		// },
 
-		{
-			para198{[]int{1, 2, 3, 1}},
-			ans198{4},
-		},
+		// {
+		// 	para198{[]int{1, 2, 3, 1}},
+		// 	ans198{4},
+		// },
 		{
 			para198{[]int{2, 7, 9, 3, 1}},
 			ans198{12},
@@ -45,7 +45,7 @@ func Test_Problem198(t *testing.T) {
 
 	for _, q := range qs {
 		_, p := q.ans198, q.para198
-		fmt.Printf("【input】:%v       【output】:%v\n", p, rob198(p.one))
+		fmt.Printf("【input】:%v       【output】:%v\n", p, rob198_1(p.one))
 	}
 	fmt.Printf("\n\n\n")
 }
